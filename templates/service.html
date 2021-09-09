@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+  <!-- service section -->
+<style>
+  p{
+    text-align: justify;
+  }
+</style>
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+          <p>
+            We provide a wide range of services of which most prevelent in which we are best known for are...
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/s1.png' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Computer Repair
+                </h5>
+                <p>
+                  Others may not be able to reach the vital facts that we can.
+                  Our aim is to offer outstanding service to troubleshoot and repair your computer.
+                  We will pay attention to your needs and 
+                  offer you the best consultation and advice on managing your computer well.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/s2.png' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Hardware Replacement
+                </h5>
+                <p>
+                  If your computer experiences signs of hard drive failure, it’s best to replace it before it completely wears out. 
+                  This gives you a chance to save the data stored on it, including your operating system.
+                  <b>We Offer Hardware Replacement of each and every Component of Your Device.</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/s3.png' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Data Recovery
+                </h5>
+                <p>
+                  Our data recovery service involves salvaging data from inaccessible, 
+                  formatted, damaged, failed, wrecked primary storage media 
+                  where data cannot be accessed normally using operating system, corrupt, 
+                  missing, or otherwise inaccessible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/s4.png' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Software Update
+                </h5>
+                <p>
+                  We can upgrade your entire operating system , or we can update the programs that you use most.
+                  Other Software include Driver installation.
+                  You brought a new printer, camera, scanner, or any device and will provide you the appropriate drivers you need.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <br>
+            <p style="font-weight: 700;">PRO TIP for free😉:<br>
+              Replacing a hard drive with an SSD is one of the best things you can do 
+              to dramatically improve the performance of your older computer.</p>
+          </div>
+
+        </div>
+        <div class="btn-box">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+{% endblock content %}
+  <!-- footer section -->

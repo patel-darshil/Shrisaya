@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+  <!-- about section -->
+  <style>
+    p{
+      text-align: justify;
+    }
+  </style>
+  <section class="about_section layout_padding">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Provide Best Service
+              </h2>
+            </div>
+            <p>
+              EXCEPTIONAL CUSTOMER SERVICE
+              We think providing exceptional customer service is our main strength. 
+              We take pride in providing outstanding services to our customers. 
+              We know that our customers are important for us and 
+              hence we do not leave any stone unturned in helping, guiding and 
+              providing the best possible solutions, service and support to our clients. 
+              We work with lot of dedication & passion.
+            </p>
+          
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="{% static 'images/about-img.jpg' %}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+{% endblock content %}
+  <!-- footer section -->
+  
