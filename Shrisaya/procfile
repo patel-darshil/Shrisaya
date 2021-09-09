@@ -1,0 +1,1 @@
+web: gunicorn Shrisaya.wsgi --log-file -
